@@ -118,6 +118,6 @@ build do
       end
     end
   else
-    gem_command "update --system", env: env
+    gem "update --system", env: env
   end
 end
